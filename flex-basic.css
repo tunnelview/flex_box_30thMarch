@@ -1,3 +1,32 @@
+body {
+  font-size: 40px;
+}
+
 .parent {
   background: blue;
+  padding: 10px;
+  height: 80vh;
+
+  /* flex */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* justify-content has three different values, center
+  will put every thing in center, available space will put
+  space between individual element. and space-around will give 
+  equal space between each individual element, including the 
+  1st and last */
+  /* flex-direction: column-reverse; */
+}
+.parent div {
+  background: grey;
+  margin: 10px;
+
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
