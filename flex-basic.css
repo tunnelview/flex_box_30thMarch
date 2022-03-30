@@ -30,3 +30,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.parent > div:nth-child(odd) {
+  background: red;
+  height: 150px;
+}
+
+/* only that item will move to first */
+.item-4 {
+  align-self: flex-start;
+}
+
+/* only the selected item will move to the last */
+.item-6 {
+  align-self: flex-end;
+}
+
+/* change the order of the element */
+.item-7 {
+  order: -1;
+}
